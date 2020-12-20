@@ -1,0 +1,33 @@
+* {
+  margin: 0%;
+}
+.app{
+  background-color: #fafafa;
+  
+}
+.app_posts{
+  padding: 20px;
+
+flex-direction: column;
+  align-items: center;
+}
+.app_header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+background-color: white;
+border-bottom: 1px solid lightgray;
+display: flex;
+object-fit: contain;
+  justify-content: space-between;
+  height: 100px;
+}
+.app_headerImage{
+  object-fit: contain;
+}
+
+.app_Singup{
+  display: flex;
+  flex-direction: column;
+
+}
